@@ -10,9 +10,8 @@ function volume_sphere(event) {
 			   volume.value = "NaN"
 		   }
 	     else{
-		 let vol = (4/3) * Math.PI * Math.pow(rad, 3)
-	         volumne.value = vol.toFixed(4)
-	})
+		 let vol = (4/3) * Math.PI * Math.pow(fltRad, 3)
+	         volume.value = vol.toFixed(4)
 }
 } 
 
